@@ -1,0 +1,67 @@
+.locations {
+    display: flex;
+    flex-direction: column;
+    border: 50px dotted rgb(242, 173, 219)
+}
+
+.location {
+    background-color: rgb(201, 250, 193);
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h5 {
+    text-align: center;
+    list-style-position: inside;
+    color:rgb(240, 50, 94);
+  }
+
+.location__header {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 4rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    color: rgb(42, 56, 165);
+}
+
+h4{
+    color:rgb(240, 148, 49)
+}
+
+h2 {
+    color: rgb(9, 129, 249);
+}
+
+.kandyKorner {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+}
+
+body {
+    background-color: lightgrey;
+  }
